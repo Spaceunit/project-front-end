@@ -2,7 +2,7 @@
 
 ![logo-big-net](https://cloud.githubusercontent.com/assets/14862632/14582806/becfa1d6-0417-11e6-8376-57ded3c0c231.png)
 ##DealGrain logistical system.
-Backend of logistical system
+Front-end of logistical system
 Service provides with three-way communication: **buyer-supplier-carrier**.
 The user can act as a buyer, supplier or carrier.
 

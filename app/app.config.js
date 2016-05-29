@@ -7,10 +7,14 @@ angular.
 
       $routeProvider.
         when('/main', {
-          template: '<profile></profile>'
+          template: '<main></main>'
         }).
         when('/main/profile', {
-          template: '<costumer></costumer>'
+          template: '<profile></profile>'
+        }).when('/main/sign-up',{
+          template: '<sign-up></sign-up>'
+        }).when('/main/sign-in',{
+          template: '<sign-in></sign-in>'
         }).
         otherwise('/main');
     }

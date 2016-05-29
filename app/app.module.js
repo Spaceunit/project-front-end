@@ -1,1 +1,1 @@
-//app.config.js
+//app.module.js

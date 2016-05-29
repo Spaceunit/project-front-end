@@ -1,7 +1,6 @@
-//profile.component.js
 'use strict';
+//profile component;
 
-// Register `phoneList` component, along with its associated controller and template
 angular.
   module('profile').
   component('profile', {
@@ -10,5 +9,13 @@ angular.
       function ProfileController(Role) {
         //this.some = 0
       }
+      $scope.addRole = function(id){
+
+      }
+      $scope.delRole = function(id){
+
+      }
+      
+
     ]
   });

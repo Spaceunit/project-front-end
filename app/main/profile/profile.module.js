@@ -1,1 +1,3 @@
-//profile.model.js
+'use strict';
+
+angular.module('profile', ['//']);

@@ -15,7 +15,7 @@ angular.
       $scope.delRole = function(id){
 
       }
-      
+
 
     ]
   });

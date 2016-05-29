@@ -7,7 +7,7 @@ angular.
   component('main', {
     templateUrl: 'main/main.template.html',
     controller: ['Main',
-      function PhoneListController(Main) {
+      function MainController(Main) {
         //some do
       }
     ]

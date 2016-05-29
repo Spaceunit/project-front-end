@@ -9,6 +9,7 @@ angular.
     controller: ['Main',
       function MainController(Main) {
         //some do
+        var.self = this;
       }
     ]
   });

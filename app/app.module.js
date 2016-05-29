@@ -6,6 +6,6 @@ angular.module('myApp', [
   'ngAnimate',
   'ngRoute',
   'core',
-  'profile',
-  'phoneList',
+  'main',
+  'profile'
 ]);

@@ -7,5 +7,7 @@ angular.module('myApp', [
   'ngRoute',
   'core',
   'main',
-  'profile'
+  'profile',
+  'signUp',
+  'signIn'
 ]);

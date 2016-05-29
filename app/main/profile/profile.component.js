@@ -9,9 +9,11 @@ angular.
       function ProfileController(Role) {
         //this.some = 0
       }
+      //adding a role
       $scope.addRole = function(id){
 
       }
+      //deleting a role
       $scope.delRole = function(id){
 
       }

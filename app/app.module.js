@@ -5,5 +5,6 @@
 angular.module('myApp', [
   'ngAnimate',
   'ngRoute',
-  'main'
+  'main',
+  'signUp'
 ]);

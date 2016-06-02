@@ -15,6 +15,8 @@ angular.
           template: '<sign-up></sign-up>'
         }).when('/main/sign-in',{
           template: '<sign-in></sign-in>'
+        }).when('/main/profile',{
+        template: '<profile></profile>'
         }).
         otherwise('/main');
     }

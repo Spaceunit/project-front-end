@@ -1,3 +1,3 @@
 'use strict';
  
-angular.module('profile', ['//']);
+angular.module('profile', ['ngResource']);

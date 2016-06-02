@@ -5,10 +5,11 @@ angular.
   module('profile').
   component('profile', {
     templateUrl: 'main/profile/profile.template.html',
-    controller: [
+    controller: ['$scope',
       function ProfileController($scope) {
         //this.some = 0
         //adding a role
+        this.name = 'Lol'
         $scope.addRole = function addRole(id){
           id = 0;
         };

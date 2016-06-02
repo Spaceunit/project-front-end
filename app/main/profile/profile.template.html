@@ -1,31 +1,14 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
-      <!--name and image of profile-->
-
-      <p>
-        Welcome, {{$ctrl.name}}
-      </p>
-
-      <p>
-        <img ng-src="{{$ctrl.imageUrl}}" alt="{{$ctrl.imageUrl}}" />
-      </p>
-
-      <input type="text" ng-model="$ctrl.imageUrl">
-
+    <div class="col-sm-6">
+      <h3>User data fields</h3>
+      <p>Data...</p>
     </div>
-    <div class="col-md-10">
-      <!--Body content-->
-
-      <ul class="roles">
-        <li ng-repeat="roles in $ctrl.roles | filter:$ctrl"
-            class="thumbnail role-list-item">
-          <a href="#!/roles/{{role.id}}" class="thumb">
-          </a>
-          <a href="#!/roles/{{role.id}}">{{role.name}}</a>
-        </li>
-      </ul>
-
+    <div class="col-sm-6">
+      <h3>User photo</h3>
     </div>
+  </div>
+  <div class="row">
+    <p>Buttons for roles</p>
   </div>
 </div>

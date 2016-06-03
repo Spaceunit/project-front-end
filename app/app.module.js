@@ -7,5 +7,6 @@ angular.module('myApp', [
   'ngRoute',
   'main',
   'signUp',
-  'profile'
+  'profile',
+  'carrier'  
 ]);

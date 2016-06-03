@@ -16,7 +16,9 @@ angular.
         }).when('/main/sign-in',{
           template: '<sign-in></sign-in>'
         }).when('/main/profile',{
-        template: '<profile></profile>'
+          template: '<profile></profile>'
+        }).when('/main/profile/carrier',{
+          template: '<carrier></carrier>'
         }).
         otherwise('/main');
     }

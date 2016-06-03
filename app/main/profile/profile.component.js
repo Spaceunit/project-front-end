@@ -9,9 +9,9 @@ angular.
       function ProfileController($scope) {
         //this.some = 0
         //adding a role
-        this.imageURL = 'media/photo.jpg';
-        this.height = 300;
-        this.width  = 200;
+        this.imageURL = 'media/ic_add_a_photo_black_48px.svg';
+        this.height = '';
+        this.width  = '300px';
         this.name = 'Lol'
         $scope.addRole = function addRole(id){
           id = 0;

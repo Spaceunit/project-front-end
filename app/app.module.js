@@ -5,8 +5,10 @@
 angular.module('myApp', [
   'ngAnimate',
   'ngRoute',
+  'header',
   'main',
   'signUp',
   'profile',
-  'carrier'  
+  'carrier',
+  'footer'
 ]);

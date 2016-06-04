@@ -7,10 +7,10 @@ angular.
 module('core.grain').
 factory('Grain', ['$resource',
     function($resource) {
-        return $resource('main/:phoneId.json', {}, {
+        return $resource('data/:pageId.json', {}, {
             query: {
                 method: 'GET',
-                params: {phoneId: 'phones'},
+                params: {phoneId: 'resources'},
                 isArray: true
             }
         });

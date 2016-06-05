@@ -1,1 +1,2 @@
-//sign-in.model.js
+//sign-in.model.js;
+angular.module('signIn',['ngResource'])

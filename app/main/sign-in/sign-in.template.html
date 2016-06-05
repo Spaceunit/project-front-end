@@ -1,10 +1,51 @@
-<!DOCTYPE html>
-<div ng-controller="mainController">
-  <div ng-if="isAutorized">
-    <menu></menu>
-    <ng-view></ng-view>
-  </div>
-  <div ng-if="!isAutorized">
-    <login></login>
+<!-- <style media="screen">
+  body{
+    background-color: #525252;
+  }
+  .centered-form{
+  	margin-top: 60px;
+  }
+
+  .centered-form .panel{
+  	background: rgba(255, 255, 255, 0.8);
+  	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+  }
+</style> -->
+<style media="screen">
+  .centered-form{
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+  }
+</style>
+<div class="container" >
+  <div class="row centered-form">
+    <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Sign in</h3>
+        </div>
+        <div class="panel-body">
+          <form role="form">
+            <div class="form-group">
+              <input type="email" name="login" id="login" class="form-control" placeholder="login\email">
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6">
+                <div class="form-group">
+                  <input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
+                </div>
+              </div>
+            </div>
+            <input type="submit" value="Login" class="btn btn-info btn-block">
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

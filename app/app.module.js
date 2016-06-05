@@ -10,6 +10,6 @@ angular.module('myApp', [
     'signUp',
     'profile',
     'carrier',
-     'vendor',
+    'vendor',
     'footer'
 ]);

@@ -18,7 +18,7 @@ angular.
         }).when('/main/profile',{
           template: '<profile></profile>'
         }).when('/main/profile/vendor', {
-        template: '<vendor></vendor>'
+          template: '<vendor></vendor>'
         }).when('/main/profile/carrier',{
           template: '<carrier></carrier>'
         }).

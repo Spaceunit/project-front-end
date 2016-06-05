@@ -8,8 +8,8 @@ angular.module('myApp', [
     'header',
     'main',
     'signUp',
-    'signIn',
     'profile',
     'carrier',
+    'vendor',
     'footer'
 ]);

@@ -1,2 +1,2 @@
-//carrier.model.js
+//vendor.model.js
 angular.module('vendor', ['ngResource']);

@@ -11,5 +11,6 @@ angular.module('myApp', [
     'profile',
     'carrier',
     'vendor',
+    'customer',
     'footer'
 ]);

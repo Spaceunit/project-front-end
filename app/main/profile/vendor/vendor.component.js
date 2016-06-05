@@ -4,7 +4,7 @@
 angular.
 module('vendor').
 component('vendor', {
-    templateUrl: 'main/profile/vendor/vendor.vendor.html',
+    templateUrl: 'main/profile/vendor/vendor.template.html',
     controller: ['$scope',
         function СarrierController($scope) {
             //this.some = 0

@@ -12,5 +12,6 @@ angular.module('myApp', [
     'carrier',
     'vendor',
     'customer',
-    'footer'
+    'footer',
+    'test'
 ]);
